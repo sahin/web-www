@@ -7,6 +7,14 @@
     {
       "source": "/warren-buffett-indicators/:path*",
       "destination": "https://web-buffett-indicator.vercel.app/warren-buffett-indicators/:path*"
+    },
+    {
+      "source": "/",
+      "destination": "https://www.sahin.press/"
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://www.sahin.press/"
     }
   ]
 }
