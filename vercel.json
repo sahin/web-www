@@ -12,11 +12,11 @@
     },
     {
       "source": "/",
-      "destination": "https://notion.so/"
+      "destination": "https://www.sahin.press/"
     },
     {
       "source": "/:path*",
-      "destination": "https://notion.so/:path*"
+      "destination": "https://www.sahin.press/:path*"
     }
   ]
 }
