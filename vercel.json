@@ -1,4 +1,6 @@
 {
+  "buildCommand": "",
+  "outputDirectory": "public",
   "rewrites": [
     {
       "source": "/warren-buffett-indicators",
@@ -10,11 +12,11 @@
     },
     {
       "source": "/",
-      "destination": "https://www.sahin.press/"
+      "destination": "https://notion.so/"
     },
     {
       "source": "/:path*",
-      "destination": "https://www.sahin.press/"
+      "destination": "https://notion.so/:path*"
     }
   ]
 }
